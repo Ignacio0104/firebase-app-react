@@ -22,7 +22,7 @@ const Header = () => {
     <header className="fixed top-0 h-20 w-full bg-gray-100 shadow-lg flex items-center justify-between px-8">
     <div className="flex items-center gap-2">
     <SiFirebase cursor="pointer" className="text-2xl text-pink-500" onClick={()=>setRoute("home")}></SiFirebase>
-    <span  className="text-xl font-semibold text-pink-500">FireShopping</span>
+    <span  className="text-xl font-semibold text-pink-500">FireShopping Version 2</span>
     </div>
     <div>
     { user !== null ? 
