@@ -34,7 +34,7 @@ function App() {
   
   return (
     <AppContext.Provider value={{route,setRoute,user,setUser}}> 
-    <div className="h-screen">     {/* Ocupa todo la pantalla para que el footer quede abajo */}
+    <div className="h-screen">     {/* Ocupa todola pantalla para que el footer quede abajo */}
     <Toaster></Toaster>
     <Header></Header>    
     <main className="px-6 py-24">
